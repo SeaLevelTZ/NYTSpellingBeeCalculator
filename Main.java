@@ -4,6 +4,9 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
+
+        ArrayList<String> wordList = FourLetter.makeList();
+
         Scanner scan = new Scanner(System.in);
         ArrayList<String> wordArr = new ArrayList<String>();
         System.out.print("Enter center letter: ");
