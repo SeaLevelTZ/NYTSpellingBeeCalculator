@@ -10,6 +10,7 @@ public class FourLetter {
         Scanner scanner = new Scanner(new File("words.txt"));
         while(scanner.hasNextLine()){
             wordList.add(scanner.nextLine());
+            //System.out.println("hi");
         }
         scanner.close();
         
