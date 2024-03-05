@@ -9,6 +9,7 @@ public class FourLetter {
         try{
         Scanner scanner = new Scanner(new File("words.txt"));
         while(scanner.hasNextLine()){
+            //if(scanner.nextLine().equals(scanner.nextLine().toUpperCase()))
             wordList.add(scanner.nextLine());
             //System.out.println("hi");
         }
