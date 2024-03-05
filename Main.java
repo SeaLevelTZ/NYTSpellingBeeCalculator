@@ -15,7 +15,7 @@ public class Main {
         String other6 = scan.nextLine();
         ArrayList<String> allWords = FourLetter.makeList();
         for (String i : allWords) {
-            if (i.length() > 3 && hasCenter(a, i) && isInWord(other6, i, a)) {
+            if ( hasCenter(a, i) && isInWord(other6, i, a)) {
                 wordArr.add(i);
             }
         }
