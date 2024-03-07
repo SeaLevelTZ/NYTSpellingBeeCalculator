@@ -2,7 +2,6 @@ import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
-
 public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -28,7 +27,6 @@ public class Main {
         System.out.println(wordArr.size() + " words found\n");
         System.out.println(wordArr);
     }
-
     private static boolean isInWord(String letters, String word, String center) {
         for (int i = 0; i < word.length(); i++) {
             char c = word.charAt(i);
@@ -38,17 +36,9 @@ public class Main {
         }
         return true;
     }
-
     private static boolean hasCenter(String center, String word) {
         if (word.indexOf(center) == -1)
             return false;
         return true;
-    }
-
-    public static ArrayList<String> makeList() {
-        ArrayList<String> wordList = new ArrayList<>();
-
-        
-        return wordList;
     }
 }
